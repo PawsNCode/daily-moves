@@ -54,9 +54,18 @@ In the rare case iOS clings to an old copy, re-adding the site to the home scree
 | File | Purpose |
 |------|---------|
 | `index.html` | The entire app — markup, styles, and logic. |
+| `manifest.webmanifest` | Web app manifest (name, icons, standalone display) for installable PWA behavior. |
+| `icon.svg` | Scalable master brand mark (also used as the crisp browser favicon). |
+| `favicon.ico` · `favicon-16/32/48.png` | Browser-tab favicons. |
+| `apple-touch-icon.png` | 180×180 home-screen icon for iPhone/iPad. |
+| `icon-192.png` · `icon-512.png` | App icons for Android/Chrome (referenced by the manifest). |
 | `README.md` | This file. |
 | `LICENSE` | MIT license. |
 | `.gitignore` | Keeps OS/editor junk out of the repo. |
+
+## Icon
+
+The mark is a white sprout growing inside an open progress ring — the two motifs the app uses for growth (streaks) and daily progress — on a magenta-to-fuchsia gradient. Keep all icon files in the repo root next to `index.html` so the relative links resolve on GitHub Pages.
 
 ## Palette
 

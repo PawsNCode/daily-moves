@@ -1,0 +1,16 @@
+{
+  "name": "Daily Moves",
+  "short_name": "Daily Moves",
+  "description": "A gentle, no-pressure daily exercise tracker. Define your own moves, log whatever you do, and watch your consistency build.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff4fb",
+  "theme_color": "#fff4fb",
+  "icons": [
+    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192", "purpose": "any" },
+    { "src": "icon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "any" },
+    { "src": "icon.svg", "type": "image/svg+xml", "sizes": "any" }
+  ]
+}
